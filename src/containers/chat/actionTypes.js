@@ -1,0 +1,3 @@
+export const GET_MESSAGE = 'GET_MESSAGE';
+export const UPDATE_MESSAGE = 'UPDATE_MESSAGE';
+
