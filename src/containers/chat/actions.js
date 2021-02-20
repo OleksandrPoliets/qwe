@@ -115,7 +115,7 @@ export const deleteUserMesage = messageId => (dispatch, getRootState) => {
 
     dispatch(updateMessage({
             message: [...tempMessage],
-            mesageCount: messages.length,
+            mesageCount: tempMessage.length,
             lastMessageTime: tempMessage[tempMessage.length - 1].createdAt,
         }
     ));
